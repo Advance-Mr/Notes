@@ -910,3 +910,7 @@ shift + zz ：（命令模式）保存并退出
 2. 清空name和data文件夹里的所有东西
 3. hdfs namenode -format 格式化namenode
 4. 重启即可
+
+#### 12.3 namenode启动date未启动
+
+[启动hadoop集群,namenode正常启动，而datanode没有启动或只启动一个，在web端只看到一个datanode的原因及其解决办法_hdfs只有一个datanode-CSDN博客](https://blog.csdn.net/m0_58028961/article/details/122985159)
