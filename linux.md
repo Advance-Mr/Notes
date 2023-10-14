@@ -691,11 +691,32 @@ sudo su root
 
 ## 9  文件
 
+**文件树**
+
+  1、 包管理器安装
+
+centos 中用         yum -y install tree 
+
+ubuntu 中用        apt-get install tree 
+
+当然如果需要权限不要忘了在前面加上 sudo
+
+  2、 源码编译安装
+
+```
+wget ftp://mama.indstate.edu/linux/tree/tree-1.6.0.tgz
+tar xzvf tree-1.6.0.tgz
+cd tree-1.6.0
+make && make install
+```
+
+​     最后可以 ：  cp tree /bin 
+
 **mkdir命令**
 
-**1 .** `[root@duan ~]# mkdir abc`，在当前目录创建目录abc。
+  1 . `[root@duan ~]# mkdir abc`，在当前目录创建目录abc。
 
-**2 .** `[root@duan ~]# mkdir -p /aa/bb/cc`，在/根目录创建目录/aa，在/aa目录下创建子目录bb，在/aa/bb目录下创建子目录cc。
+  2 . `[root@duan ~]# mkdir -p /aa/bb/cc`，在/根目录创建目录/aa，在/aa目录下创建子目录bb，在/aa/bb目录下创建子目录cc。
 
 **rm 删除命令**
 
@@ -707,7 +728,7 @@ sudo su root
 | -i   | 删除文件或目录时提醒用户确认。( y表示删除，n表示不删除）     |
 | -r   | 删除目录时必须使用此选项，表示**递归删除**整个目录树（应谨慎使用）。 |
 
-如：
+  如：
 
 ```
 rm test.php        #删除文件需要确认
@@ -854,6 +875,8 @@ shift + zz ：（命令模式）保存并退出
 ```
 
 ## 12 hadoop问题
+
+集群搭建 [Hadoop-2.7.4 集群快速搭建-腾讯云开发者社区-腾讯云 (tencent.com)](https://cloud.tencent.com/developer/article/1041236)
 
 ### 12.1 50070打不开
 
