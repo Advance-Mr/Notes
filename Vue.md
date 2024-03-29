@@ -19,7 +19,7 @@ Vue 是一套用于构建用户界面的渐进式框架，vue可以设计自地�
 ![](https://cdn.jsdelivr.net/gh/Advance-Mr/image/b5c2d7bf7d23ac1b7ece761184b6ecb-1709099128361-13.png)
 参考思想：基于MVVM(Model-View-ViewModel)思想，实现数据的双向绑定，将编程的关注点放在数据上。
 
-![](C:\Users\Administrator\Desktop\R星\assets\image-20240226102235003.png)
+![](https://cdn.jsdelivr.net/gh/Advance-Mr/image/image-20240226102235003.png)
 
 M：模型/data中的数据
 
@@ -117,7 +117,7 @@ data(){
 
 补充：异步请求。访问页面就会触发钩子函数-挂载。然后异步请求返回数据到数据模型emp中，通过vue渲染展示。
 
-![](C:\Users\Administrator\Desktop\R星\assets\image-20240226122853200.png)
+![](https://cdn.jsdelivr.net/gh/Advance-Mr/image/image-20240226122853200.png)
 
 #### 记忆：
 
