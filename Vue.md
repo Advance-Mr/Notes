@@ -16,8 +16,7 @@ Vue 是一套用于构建用户界面的渐进式框架，vue可以设计自地�
 
 ​						**3.使用虚拟DOM+优秀的Diff算法，尽量复用DOM节点**
 
-![](C:\Users\Administrator\Desktop\R星\assets\b5c2d7bf7d23ac1b7ece761184b6ecb-1709099128361-13.png)
-
+![](https://cdn.jsdelivr.net/gh/Advance-Mr/image/b5c2d7bf7d23ac1b7ece761184b6ecb-1709099128361-13.png)
 参考思想：基于MVVM(Model-View-ViewModel)思想，实现数据的双向绑定，将编程的关注点放在数据上。
 
 ![](C:\Users\Administrator\Desktop\R星\assets\image-20240226102235003.png)
